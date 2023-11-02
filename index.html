@@ -8,151 +8,160 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     /* Styles CSS personnalisés */
-   body{
-    width: 100%;
-   }
+    body {
+      width: 100%;
+    }
+
     .jumbotron {
-  background-color: rgb(222, 160, 13);
-  padding: 50px;
-  width: 100%;
-}
+      background-color: rgb(222, 160, 13);
+      padding: 50px;
+      width: 100%;
+    }
 
-.jumbotron h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
+    .jumbotron h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
 
-.ilog {
-  border-radius: 80%;
-}
+    .ilog {
+      border-radius: 80%;
+    }
 
-.lead {
-  font-size: 25px;
-}
+    .lead {
+      font-size: 25px;
+    }
 
-section {
-  padding: 50px 0;
-}
+    section {
+      padding: 50px 0;
+    }
 
-h2 {
-  font-size: 38px;
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
+    h2 {
+      font-size: 38px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
 
-.card {
-  box-shadow: 0 9px 16px rgba(0, 0, 0, 0.4);
-  transition: box-shadow 0.3s ease-in-out;
-}
+    .card {
+      box-shadow: 0 9px 16px rgba(0, 0, 0, 0.4);
+      transition: box-shadow 0.3s ease-in-out;
+    }
 
-.card-img-top {
-  height: 300px;
-  object-fit: cover;
-}
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
 
-.card-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+    .card-title {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 
-.card-text {
-  font-size: 20px;
-}
+    .card-text {
+      font-size: 20px;
+    }
 
-.footer {
-  background-color: rgb(222, 160, 13);
-  color: #fff;
-  padding: 20px 0;
-  width: 100%;
-  text-align: center;
-}
+    .footer {
+      background-color: rgb(222, 160, 13);
+      color: #fff;
+      padding: 20px 0;
+      width: 100%;
+      text-align: center;
+    }
 
-.footer-icons {
-  margin-top: 20px;
-}
+    .footer-icons {
+      margin-top: 20px;
+    }
 
-.footer-icons i {
-  font-size: 35px;
-  margin: 0 10px;
-  color: #fff;
-}
+    .footer-icons i {
+      font-size: 35px;
+      margin: 0 10px;
+      color: #fff;
+    }
 
-.social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
 
-.social-icons li {
-  display: inline-block;
-  margin: 0 10px;
-}
+    .social-icons li {
+      display: inline-block;
+      margin: 0 10px;
+    }
 
-.social-icons li a {
-  color: #222221;
-  font-size: 35px;
-}
+    .social-icons li a {
+      color: #222221;
+      font-size: 35px;
+    }
 
-.form-container {
-        width: 100%;
-        margin: 0 auto;
-        background-color: #fff;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 0 11px rgba(0, 0, 0, 0.4);
-      }
-      .form-group {
-        position: relative;
-      }
-      .form-group label {
-        position: absolute;
-        top: -20px;
-        left: 0;
-        font-size: 14px;
-        font-weight: bold;
-        color: #555;
-        transition: all 0.3s ease;
-      }
-      .form-group input:focus ~ label,
-      .form-group input:valid ~ label,
-      .form-group textarea:focus ~ label,
-      .form-group textarea:valid ~ label {
-        top: -30px;
-        font-size: 12px;
-        color: #888;
-      }
-      .form-group input:focus,
-      .form-group textarea:focus {
-        box-shadow: 0 0 11px rgba(0, 0, 0, 0.4);
-      }
-      .form-group input[type="text"],
-      .form-group input[type="email"],
-      .form-group textarea {
-        border: none;
-        border-bottom: 2px solid #ddd;
-        padding: 5px 0;
-        font-size: 16px;
-        transition: all 0.3s ease;
-      }
-      .btn-submit {
-        background-color:  rgb(222, 160, 13);
-        border: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100%;
-        transition: background-color 0.3s ease;
-      }
-      .btn-submit:hover {
-        background-color:#007bff;
-      }
-      .king{
-        align-items: center;
+    .form-container {
+      width: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 11px rgba(0, 0, 0, 0.4);
+    }
+
+    .form-group {
+      position: relative;
+    }
+
+    .form-group label {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      font-size: 14px;
+      font-weight: bold;
+      color: #555;
+      transition: all 0.3s ease;
+    }
+      
+    .form-group input:focus ~ label,
+    .form-group input:valid ~ label,
+    .form-group textarea:focus ~ label,
+    .form-group textarea:valid ~ label {
+      top: -30px;
+      font-size: 12px;
+      color: #888;
+    }
+      
+    .form-group input:focus,
+    .form-group textarea:focus {
+      box-shadow: 0 0 11px rgba(0, 0, 0, 0.4);
+    }
+      
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+      border: none;
+      border-bottom: 2px solid #ddd;
+      padding: 5px 0;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+      
+    .btn-submit {
+      background-color:  rgb(222, 160, 13);
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+      
+    .btn-submit:hover {
+      background-color:#007bff;
+    }
+      
+    .king{
+      align-items: center;
       }
   </style>
 </head>
